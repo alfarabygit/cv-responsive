@@ -1,2 +1,2 @@
 # cv-responsive
-portofolio responsive dengan html css dan javascript
+cv responsive dengan html css dan javascript
