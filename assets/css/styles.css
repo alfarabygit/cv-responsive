@@ -15,7 +15,7 @@
 
   /*========== Custom Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
-  --h1-font-size: 1.7rem;
+  --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
   --normal-font-size: 0.938rem;
@@ -27,7 +27,7 @@
   --font-semi-bold: 600;
 
   /*========== Custom Margin ==========*/
-  --mb-1: 0.65rem;
+  --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
 
@@ -69,19 +69,20 @@ body.dark-theme {
 }
 /*========== Font size variables to scale cv ==========*/
 body.scale-cv {
-  --h1-font-size: 1rem;
-  --h2-font-size: 0.95rem;
-  --h3-font-size: 0.88rem;
-  --normal-font-size: 0.8rem;
+  --h1-font-size: 0.938rem;
+  --h2-font-size: 0.938rem;
+  --h3-font-size: 0.875rem;
+  --normal-font-size: 0.938rem;
   --small-font-size: 0.75rem;
-  --smaller-font-size: 0.7rem;
+  --smaller-font-size: 0.688rem;
 }
 /*========== Generate PDF button ==========*/
 .generate-pdf {
+  display: none;
   position: absolute;
   top: 2.2rem;
   left: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--text-color);
   cursor: pointer;
 }
@@ -109,8 +110,8 @@ body.scale-cv {
   padding: 0 1rem;
 }
 .scale-cv .home__img {
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 130px;
 }
 .scale-cv .home__container {
   gap: 1.5rem;
@@ -329,7 +330,7 @@ img {
 }
 .home__icon {
   font-size: 1.2rem;
-  margin-right: 0.25rem;
+  margin-right: 1.3rem;
 }
 .home__button-movil {
   display: inline-block;
@@ -361,7 +362,7 @@ img {
 }
 .social__icon {
   font-size: 1.2rem;
-  margin-right: 0.25rem;
+  margin-right: 1rem;
 }
 /*========== PROFILE ==========*/
 .profile__description {
@@ -494,7 +495,7 @@ img {
 }
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
-@media screen and(max-width:320px) {
+@media screen and (max-width: 320px) {
   .nav__list {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem 0.5rem;
